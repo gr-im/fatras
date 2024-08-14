@@ -1,0 +1,3 @@
+(library
+ (name router)
+ (public_name fatras.router))

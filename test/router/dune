@@ -1,0 +1,6 @@
+(library
+ (name router_test)
+ (inline_tests)
+ (libraries fatras.router)
+ (preprocess
+  (pps ppx_expect)))
