@@ -1,11 +1,11 @@
-(** A hole is used to describe a variable in the path of a URL. It is a type
-    parameterised by a normal form (the type of the hole). For example, if a URL
-    wants to capture an integer, the hole will be of type [int Hole.t]. *)
+(** A hole is used to describe a variable in the pattern of an URL's path. It is
+    a type parameterised by a normal form (the type of the hole). For example,
+    if a URL wants to capture an integer, the hole will be of type [int Hole.t]. *)
 
 (** {1 Type}
 
-    A (URL) path is a collection of constant fragments and holes, which can be
-    typed. *)
+    An (URL) pattern is a collection of constant fragments and holes, which can
+    be typed. *)
 
 type 'a t
 (** The type that describes a hole. *)
