@@ -3,6 +3,7 @@
 (version dev)
 (generate_opam_files)
 (executables_implicit_empty_intf)
+(using mdx 0.4)
 
 (source (github gr-im/fatras))
 (license MIT)
@@ -14,10 +15,11 @@
   (synopsis "Common libraries and dev dependencies")
   (description "Fatras is a Bazar of OCaml experiences")
   (depends
-    (ocaml (>= 5.1.1))
-    (dune (>= 3.16.0))
+   (ocaml (>= 5.1.1))
+   (dune (>= 3.16.0))
 
    (ppx_expect :with-test)
+   (mdx :with-test)
 
    (ocamlformat :with-dev-setup)
    (ocp-indent :with-dev-setup)

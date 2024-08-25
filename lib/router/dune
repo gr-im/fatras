@@ -1,3 +1,7 @@
 (library
  (name router)
  (public_name fatras.router))
+
+(mdx
+  (files *.mli)
+  (libraries fatras.router))

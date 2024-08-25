@@ -12,6 +12,7 @@ depends: [
   "ocaml" {>= "5.1.1"}
   "dune" {>= "3.16" & >= "3.16.0"}
   "ppx_expect" {with-test}
+  "mdx" {with-test}
   "ocamlformat" {with-dev-setup}
   "ocp-indent" {with-dev-setup}
   "merlin" {with-dev-setup}
